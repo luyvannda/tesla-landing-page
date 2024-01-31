@@ -3,6 +3,7 @@ import { carData } from "./carData";
 
 interface carData {
   id: number;
+  idTag: string;
   src: string;
   carName: string;
   anchorTag: string;
@@ -10,7 +11,7 @@ interface carData {
 
 const Hero: React.FC = () => {
   const carElements = carData.map((car, index) => (
-    <section key={index} className="car_section">
+    <section key={index} id={car.idTag} className="car_section">
       <img src={car.src} alt={car.alt} className="car_image" />
 
       <div className="car_details transform_50">

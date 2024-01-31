@@ -20,7 +20,7 @@ html {
   }
 
   .car_section {
-    @apply w-full h-screen;
+    @apply w-full h-screen relative;
   }
 
   .car_image {
