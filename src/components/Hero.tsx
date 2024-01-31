@@ -1,12 +1,20 @@
-export default function Hero() {
-  return (
-    <div>
-      <section className="car_section">
-        <img src="ModelS.jfif" alt="Model S car" className="car_image" />
-      </section>
+import React from "react";
+import { carData } from "./carData";
+
+interface carData {
+  id: number;
+  src: string;
+  carName: string;
+  anchorTag: string;
+}
+
+const Hero: React.FC = () => {
+  const carElements = carData.map((car, index) => (
+    <section key={index} className="car_section">
+      <img src={car.src} alt={car.alt} className="car_image" />
 
       <div className="car_details transform_50">
-        <h1 className="model_name">Model S</h1>
+        <h1 className="model_name">{car.carName}</h1>
         <h2 className="tag_line">
           Order Online for{" "}
           <span className="underline cursor-pointer hover:text-blue-600 underline-offset-4 ">
@@ -19,6 +27,27 @@ export default function Hero() {
         <button className="btn">Custom Order</button>
         <button className="btn inventory">Existing Inventory</button>
       </div>
-    </div>
-  );
-}
+
+      <a href={`#${car.anchorTag}`}>
+        <svg
+          className="down_svg"
+          viewBox="0 0 30 30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke="var(--tds-icon--fill, #171a20)"
+            stroke-width="1.5"
+            d="m19.5 12.5-4.5 4-4.5-4"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+    </section>
+  ));
+
+  return <div>{carElements}</div>;
+};
+
+export default Hero;
