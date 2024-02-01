@@ -2,7 +2,7 @@ export default function NavBar() {
   return (
     <div className="navbar">
       <img src="tesla.svg" alt="Tesla Logo" className="h-6" />
-      <div>
+      <div className="hidden lg:block">
         <a href="#modelS" className="nav_link">
           Model S
         </a>
@@ -23,10 +23,10 @@ export default function NavBar() {
         </a>
       </div>
       <div>
-        <a href="#shop" className="nav_link">
+        <a href="#shop" className="nav_link hidden lg:inline-block">
           Shop
         </a>
-        <a href="#account" className="nav_link">
+        <a href="#account" className="nav_link hidden lg:inline-block">
           Account
         </a>
         <a href="#menu" className="nav_link">

@@ -25,8 +25,12 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="car_buttons transform_50">
-        <button className="btn">Custom Order</button>
-        <button className="btn inventory">Existing Inventory</button>
+        <button className="btn hover:bg-green-400 hover:text-black">
+          Custom Order
+        </button>
+        <button className="btn inventory hover:bg-amber-400">
+          Existing Inventory
+        </button>
       </div>
 
       <a href={`#${car.anchorTag}`}>
