@@ -51,7 +51,7 @@ export default function DropDown() {
                   href="#modelS"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Model S
@@ -65,7 +65,7 @@ export default function DropDown() {
                   href="#model3"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Model 3
@@ -79,7 +79,7 @@ export default function DropDown() {
                   href="#modelX"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Model X
@@ -93,7 +93,7 @@ export default function DropDown() {
                   href="#modelY"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Model Y
@@ -107,7 +107,7 @@ export default function DropDown() {
                   href="#solarRoof"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Solar Roof
@@ -120,7 +120,7 @@ export default function DropDown() {
                   href="#solarPanels"
                   className={classNames(
                     active ? "bg-gray-100 text-gray-900" : "text-gray-700",
-                    "block px-4 py-2 text-center text-xl"
+                    "block px-4 py-2 text-center text-xl lg:hidden"
                   )}
                 >
                   Solar Panels
