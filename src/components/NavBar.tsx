@@ -1,3 +1,5 @@
+import DropDown from "./DropDown";
+
 export default function NavBar() {
   return (
     <div className="navbar">
@@ -29,9 +31,8 @@ export default function NavBar() {
         <a href="#account" className="nav_link hidden lg:inline-block">
           Account
         </a>
-        <a href="#menu" className="nav_link">
-          Menu
-        </a>
+
+        <DropDown />
       </div>
     </div>
   );
