@@ -1,30 +1,7 @@
-# React + TypeScript + Vite
+# ! Tesla Landing Page is a project built with
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# React + Tailwind + TypeScript + Vite
 
-Currently, two official plugins are available:
+This is a tailwind projects that I learned to built from 2023's Tailwind Beginner to Advanced with Projects course from Udemy taught by Code Bless You.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The project taught in Udemy only covered the tailwind classes built with vanilla html, where as this project was built with extra codes using React.js, TypeScript. It also more responsive and have extra features like a drop down menu from Tailwinds UI.

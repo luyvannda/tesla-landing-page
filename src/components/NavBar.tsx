@@ -25,13 +25,6 @@ export default function NavBar() {
         </a>
       </div>
       <div>
-        <a href="#shop" className="nav_link hidden lg:inline-block">
-          Shop
-        </a>
-        <a href="#account" className="nav_link hidden lg:inline-block">
-          Account
-        </a>
-
         <DropDown />
       </div>
     </div>

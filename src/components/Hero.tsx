@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       <div className="car_details transform_50">
         <h1 className="model_name">{car.carName}</h1>
         <h2 className="tag_line">
-          Order Online for{" "}
+          Order Online for <br className="hidden sm:inline md:hidden" />
           <span className="underline cursor-pointer hover:text-blue-600 underline-offset-4 ">
             Touchless Delivery{" "}
           </span>
